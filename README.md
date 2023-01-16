@@ -12,3 +12,6 @@ init database
 run server 
 
     node index.js
+
+![join](./uploads/login_postman.png)
+
