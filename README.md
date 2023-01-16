@@ -13,5 +13,8 @@ run server
 
     node index.js
 
-![join](./uploads/login_postman.png)
+<img style="width:44%" src="./uploads/login_postman.png"  >  
+<img style="width:44%" src="./uploads/join_post_postman.png"  >  
+<img style="width:44%" src="./uploads/GETLIST_postman.png"  >  
+
 
