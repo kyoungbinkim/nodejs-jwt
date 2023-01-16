@@ -13,8 +13,8 @@ run server
 
     node index.js
 
-<img style="width:44%" src="./uploads/login_postman.png"  >  
-<img style="width:44%" src="./uploads/join_post_postman.png"  >  
-<img style="width:44%" src="./uploads/GETLIST_postman.png"  >  
+<img style="width:64%" src="./uploads/login_postman.png"  >  
+<img style="width:64%" src="./uploads/join_post_postman.png"  >  
+<img style="width:64%" src="./uploads/GETLIST_postman.png"  >  
 
 
