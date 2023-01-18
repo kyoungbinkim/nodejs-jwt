@@ -9,7 +9,6 @@ const mysqlConfig = {
 
 export const connection = mysql.createConnection(mysqlConfig);
 
-
 export const joinQuery = (id, pw, callback) => {
     
     connection.query(
@@ -20,10 +19,8 @@ export const joinQuery = (id, pw, callback) => {
                 callback(false);
                 return;
             }
-
             console.log(result, err);
             callback(true);
-
         }
     )
 }
@@ -34,7 +31,6 @@ export const loginQuery = (id, pw, callback) => {
             `SELECT pw FROM user where id=?`, [`${id}`], (err, row) => {
                 if(err) { callback(false) }
                 else {
-                    
                     console.log(row);
                     callback(row[0].pw === pw)
                 }
